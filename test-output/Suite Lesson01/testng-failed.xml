@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite Lesson01]">
+  <test thread-count="5" name="Test Lesson01(failed)">
+    <classes>
+      <class name="com.neotech.lesson01.TitleAndLoginValidation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="openAndNavigate"/>
+          <include name="logoValidation"/>
+          <include name="titleValidation"/>
+          <include name="setUp"/>
+          <include name="loginValidation"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.neotech.lesson01.TitleAndLoginValidation -->
+    </classes>
+  </test> <!-- Test Lesson01(failed) -->
+  <test thread-count="5" name="Test Lesson02(failed)">
+    <classes>
+      <class name="com.neotech.lesson02.AssertDemo">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="tearDown"/>
+          <include name="openAndNavigate"/>
+          <include name="setUp"/>
+          <include name="validationLogo"/>
+        </methods>
+      </class> <!-- com.neotech.lesson02.AssertDemo -->
+      <class name="com.neotech.lesson02.DependsDemo">
+        <methods>
+          <include name="firstTest"/>
+          <include name="fourthTest"/>
+          <include name="secondTest"/>
+          <include name="thirdTest"/>
+        </methods>
+      </class> <!-- com.neotech.lesson02.DependsDemo -->
+      <class name="com.neotech.lesson02.Homework1">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="tearDown"/>
+          <include name="loginValidation"/>
+          <include name="openAndNavigate"/>
+          <include name="setUp"/>
+          <include name="negativeLoginTest"/>
+        </methods>
+      </class> <!-- com.neotech.lesson02.Homework1 -->
+      <class name="com.neotech.lesson02.SoftAssertDemo">
+        <methods>
+          <include name="logoAndLoginValidation"/>
+          <include name="quitBrowser"/>
+          <include name="tearDown"/>
+          <include name="openAndNavigate"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.neotech.lesson02.SoftAssertDemo -->
+    </classes>
+  </test> <!-- Test Lesson02(failed) -->
+</suite> <!-- Failed suite [Suite Lesson01] -->

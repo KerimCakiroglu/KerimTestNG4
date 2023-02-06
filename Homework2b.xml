@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Homework2b">
+  <test thread-count="5" parallel="classes" name="LoginDataProviderTest">
+  
+  
+  
+  
+    <classes>
+    
+      <class name="com.neotech.HW.HWTNG03"/>
+   <!-- Deneme yaptim -->
+   
+  
+   
+   
+   
+    </classes>
+  </test> <!-- LoginDataProviderTest -->
+</suite> <!-- Homework2b -->
